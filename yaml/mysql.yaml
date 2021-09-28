@@ -30,4 +30,4 @@ spec:
       volumes:
       - name: mysql-persistent-storage
         persistentVolumeClaim:
-          claimName: local-device-pvc
+          claimName: pvc1
