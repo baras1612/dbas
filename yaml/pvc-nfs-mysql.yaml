@@ -2,7 +2,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: pvc-nfs-mysql
-  namespace: mysql
+  namespace: default
   labels:
     app: mysql
 spec:
