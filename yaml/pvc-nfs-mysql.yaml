@@ -4,7 +4,7 @@ metadata:
   name: pvc-nfs-mysql
   namespace: default
   labels:
-    app: mysql1
+    app: mysql
 spec:
   storageClassName: nfs-storage
   accessModes:
