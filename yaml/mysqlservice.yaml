@@ -11,4 +11,4 @@ spec:
    nodePort: 30306
   selector:
     app: mysql
-  clusterIP: None
+  
